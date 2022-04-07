@@ -17,12 +17,12 @@ public class Teste_gus {
     
     Pessoa pessoa = new Pessoa ();
     System.out.println(String.valueOf(pessoa.idade) + "-" + pessoa.peso + "-" + pessoa.nome); // String valeOf significa "mudar" para string o valor.
-    System.out.println(MessageFormat.format("Pessoa 1: idade:{0} peso:{1} Nome:{2}", pessoa.idade, pessoa.peso, pessoa.nome)); 
-    System.out.println(MessageFormat.format("endereco:{0} Nome:{1}", Pessoa.endereco, Pessoa.nome)); 
+    System.out.println(MessageFormat.format("Pessoa 1: idade:{0} peso:{1} Nome:{2}", pessoa.idade, pessoa.peso, pessoa.nome)); //insterpolacao aqui
+    System.out.println(MessageFormat.format("endereco:{0} Nome:{1}", Pessoa.endereco, Pessoa.nome)); // aqui tambem
    
     Pessoa outra_pessoa = new Pessoa();
     System.out.println(String.valueOf(outra_pessoa.idade) + "-" + outra_pessoa.peso + "-" + outra_pessoa.nome); // String valeOf significa "mudar" para string o valor.
-    System.out.println(MessageFormat.format("Pessoa 2: idade:{0} peso:{1} Nome:{2}", outra_pessoa.idade, outra_pessoa.peso, outra_pessoa.nome)); 
-    System.out.println(MessageFormat.format("endereco:{0} Nome:{1}", Pessoa.endereco, Pessoa.nome)); 
+    System.out.println(MessageFormat.format("Pessoa 2: idade:{0} peso:{1} Nome:{2}", outra_pessoa.idade, outra_pessoa.peso, outra_pessoa.nome)); //insterpolacao aqui
+    System.out.println(MessageFormat.format("endereco:{0} Nome:{1}", Pessoa.endereco, Pessoa.nome)); //aqui tambem
     }
 }
